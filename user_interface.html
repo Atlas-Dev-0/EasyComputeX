@@ -11,6 +11,7 @@
 
 <body>
     <script src="Bootstrap/js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
     <div class="title">
         <h1>
             <img src="/icons/logo-for-ui.png" alt="" width="12px" height="12px">
@@ -21,45 +22,45 @@
         <div class="calculator">
             <form>
                 <div class="display-container ">
-                    <input type="text" name="display">
+                    <input id="display" type="text" name="display">
                 </div>
                 <div class="button-container">
                     <div>
-                        <input class="hovered" type="button" value="Ac">
-                        <input class="hovered" type="button" value="Del">
-                        <input class="arithmethic hovered" type="button" value="/" onclick="addToDisplay('/')">
-                        <input class="arithmethic hovered" type="button" value="*" onclick="addToDisplay('*')">
+                        <input id="ac" class="hovered" type="button" value="Ac">
+                        <input id="del" class="hovered" type="button" value="Del">
+                        <input id="divide" class="arithmethic hovered" type="button" value="/">
+                        <input id="multiply" class="arithmethic hovered" type="button" value="*">
                     </div>
                     <div>
-                        <input class="numberbutton hovered" type="button" value="7" onclick="addToDisplay('7')">
-                        <input class="numberbutton hovered" type="button" value="8" onclick="addToDisplay('8')">
-                        <input class="numberbutton hovered" type="button" value="9" onclick="addToDisplay('9')">
-                        <input class="arithmethic hovered" type="button" value="-" onclick="addToDisplay('-')">
+                        <input id="seven" class="numberbutton hovered" type="button" value="7">
+                        <input id="eight" class="numberbutton hovered" type="button" value="8">
+                        <input id="nine" class="numberbutton hovered" type="button" value="9">
+                        <input id="subtract" class="arithmethic hovered" type="button" value="-">
                     </div>
                     <div>
-                        <input class="numberbutton hovered" type="button" value="4" onclick="addToDisplay('4')">
-                        <input class="numberbutton hovered" type="button" value="5" onclick="addToDisplay('5')">
-                        <input class="numberbutton hovered" type="button" value="6" onclick="addToDisplay('6')">
-                        <input class="arithmethic hovered" type="button" value="+" onclick="addToDisplay('+')">
+                        <input id="four" class="numberbutton hovered" type="button" value="4">
+                        <input id="five" class="numberbutton hovered" type="button" value="5">
+                        <input id="six" class="numberbutton hovered" type="button" value="6">
+                        <input id="add" class="arithmethic hovered" type="button" value="+">
                     </div>
                     <div>
-                        <input class="numberbutton hovered" type="button" value="1" onclick="addToDisplay('1')">
-                        <input class="numberbutton hovered" type="button" value="2" onclick="addToDisplay('2')">
-                        <input class="numberbutton hovered" type="button" value="3" onclick="addToDisplay('3')">
-                        <input class="equals hovered" type="button" value="=" >
+                        <input id="one" class="numberbutton hovered" type="button" value="1">
+                        <input id="two" class="numberbutton hovered" type="button" value="2">
+                        <input id="three" class="numberbutton hovered" type="button" value="3">
+                        <input id="equals" class="equals hovered" type="button" value="=">
                     </div>
                     <div>
-                        <input class="numberbutton zero hovered" type="button" value="0" onclick="addToDisplay('0')">
-                        <input class="numberbutton hovered" type="button" value=".">
+                        <input id="zero" class="numberbutton zero hovered" type="button" value="0">
+                        <input id="decimal" class="numberbutton hovered" type="button" value=".">
                     </div>
-
                 </div>
             </form>
+            
         </div>
     </div>
 
 
-    <script src="script.js"></script>
+  
 
 </body>
 
