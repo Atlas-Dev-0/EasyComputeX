@@ -55,17 +55,17 @@ body {
 
 }
 
-.display {
-    width: 173px;
+.display-container {
+    width: 195px;
     height: 94px;
     margin-bottom: 10px;
-    display: flex;
-    flex-direction: column-reverse;
+    overflow: hidden;
 }
 
-.display input {
+.display-container input {
+    white-space: nowrap;
     font-size: 30px;
-    text-align: right;
+    text-align: left;
     background: black !important;
     color: white !important;
     width: 195px !important;
