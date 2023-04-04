@@ -1,0 +1,34 @@
+{
+    "name": "EasyComputeX",
+    "version": "1.0.0",
+    "description": "A simple and efficient calculator extension for Chrome.",
+    "author": "Kenneth Gonzales",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/icons/16.png",
+        "48": "/icons/48.png",
+        "128": "/icons/128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "/icons/16.png",
+            "48": "/icons/48.png",
+            "128": "/icons/128.png"
+        },
+        "default_title": "EasyComputeX",
+        "default_popup": "user_interface.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "script.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}

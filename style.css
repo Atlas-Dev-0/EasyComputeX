@@ -1,0 +1,110 @@
+html {
+    min-width: 15em;
+    min-height: 20em;
+    background: rgb(0, 0, 0);
+    margin: 0em;
+}
+
+body {
+    font-family: 'Century Gothic';
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #082c3f;
+    padding: 10px;
+}
+
+.calculator {
+    border-radius: 20px;
+    background: black;
+    width: 219px;
+    height: 95%;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+.button-container {
+    padding: 0px;
+    height: max-content;
+    width: max-content;
+    margin-left: 1px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 43px;
+    height: 42px;
+    border-radius: 10px;
+    background: grey;
+    color: white;
+    margin: 1px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.hovered:hover {
+    transition: .2s;
+    background: rgb(161, 255, 252) !important;
+    color: black !important;
+
+}
+
+.display {
+    width: 173px;
+    height: 94px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.display input {
+    font-size: 30px;
+    text-align: right;
+    background: black !important;
+    color: white !important;
+    width: 195px !important;
+    height: 94px !important;
+    margin-bottom: 10px !important;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.numberbutton {
+    background: rgb(10, 49, 166) !important;
+}
+
+.zero {
+    width: 94px !important;
+}
+
+.equals {
+    float: right;
+    height: 92px !important;
+}
+
+.arithmethic {
+    background: rgb(2, 129, 183) !important;
+}
+
+.title {
+    text-align: center;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    background: #081a24;
+}
+
+.title h1 {
+    height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(0, 208, 255);
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
