@@ -31,7 +31,6 @@ function calculate() {
     let operands = [];
     let currentOperand = "";
 
-    // Split the expression into operands using all operators
     for (let i = 0; i < expression.length; i++) {
         if (operators.includes(expression[i])) {
             operands.push(currentOperand);
@@ -43,7 +42,6 @@ function calculate() {
     }
     operands.push(currentOperand);
 
-    // Convert operands to numbers and calculate result
     let result = parseFloat(operands[0]);
     for (let i = 1; i < operands.length; i += 2) {
         const operator = operands[i];
@@ -66,7 +64,6 @@ function calculate() {
         }
     }
 
-    // Update display with result
     display.value = result;
 }
 
