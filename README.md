@@ -35,7 +35,15 @@ Follow me on Facebook [@mr.gonzaleskenneth](https://www.facebook.com/mr.gonzales
 
 ## How to Install:
 
-1. Go to the Chrome Web Store
-2. Search for EasyComputeX
-3. Click the "Add to Chrome" button
-4. The extension will be added to your browser, and you can start using it right away.
+<ol>
+  <li>Clone the repository by running the following command in your terminal or download it in github:
+    <pre><code>git clone https://github.com/Atlas-Dev-0/EasyComputeX.git</code></pre>
+  </li>
+  <li>Open Google Chrome and go to the extensions page by clicking the three-dot menu in the top-right corner of the window and selecting "More tools" > "Extensions".</li>
+  <li>Turn on developer mode by toggling the switch in the top-right corner of the page.</li>
+  <li>Click the "Load unpacked" button and select the "EasyComputeX" folder that you cloned in step 1.</li>
+  <li>EasyComputeX should now be installed in your browser! You can access it by clicking the calculator icon in your Chrome toolbar.</li>
+</ol> 
+
+
+
