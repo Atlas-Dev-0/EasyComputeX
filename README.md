@@ -32,7 +32,7 @@ Follow me on Facebook [@mr.gonzaleskenneth](https://www.facebook.com/mr.gonzales
 
 ## Demo:
 
-![EasyComputeX Demo](path/to/your/demo.gif)
+![EasyComputeX Demo](/demo/demo.gif)
 
 ## How to Install:
 
