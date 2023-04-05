@@ -28,38 +28,45 @@ function calculate() {
     const display = document.getElementsByName("display")[0];
     const expression = display.value;
     const operators = ["+", "-", "*", "/"];
-    let operator = null;
+    let operands = [];
+    let currentOperand = "";
 
-    for (let i = 0; i < operators.length; i++) {
-        if (expression.includes(operators[i])) {
-            operator = operators[i];
-            break;
+    // Split the expression into operands using all operators
+    for (let i = 0; i < expression.length; i++) {
+        if (operators.includes(expression[i])) {
+            operands.push(currentOperand);
+            operands.push(expression[i]);
+            currentOperand = "";
+        } else {
+            currentOperand += expression[i];
+        }
+    }
+    operands.push(currentOperand);
+
+    // Convert operands to numbers and calculate result
+    let result = parseFloat(operands[0]);
+    for (let i = 1; i < operands.length; i += 2) {
+        const operator = operands[i];
+        const num = parseFloat(operands[i + 1]);
+        switch (operator) {
+            case "+":
+                result += num;
+                break;
+            case "-":
+                result -= num;
+                break;
+            case "*":
+                result *= num;
+                break;
+            case "/":
+                result /= num;
+                break;
+            default:
+                break;
         }
     }
 
-    const operands = expression.split(operator);
-
-    const num1 = parseFloat(operands[0]);
-    const num2 = parseFloat(operands[1]);
-
-    let result;
-    switch (operator) {
-        case "+":
-            result = num1 + num2;
-            break;
-        case "-":
-            result = num1 - num2;
-            break;
-        case "*":
-            result = num1 * num2;
-            break;
-        case "/":
-            result = num1 / num2;
-            break;
-        default:
-            return;
-    }
-
+    // Update display with result
     display.value = result;
 }
 
