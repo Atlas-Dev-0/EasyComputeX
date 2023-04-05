@@ -2,7 +2,7 @@
 
 <div>
 
-  <img src="path/to/your/logo.png" alt="Calculator Logo" width="100" height="100" />
+  <img src="/icons/logo-for-ui.png" alt="Calculator Logo" width="100" height="100" />
 
   ## Overview:
 
