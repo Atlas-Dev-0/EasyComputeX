@@ -1,9 +1,14 @@
 # EasyComputeX - Simple and Fast Calculator Chrome Extension
 
-<img src="/icons/logo-for-ui.png" alt="Calculator Logo" width="100" height="100" />
+<div>
 
+  <img src="path/to/your/logo.png" alt="Calculator Logo" width="100" height="100" />
 
-EasyComputeX is a Chrome extension that offers users a quick and efficient way to perform basic mathematical calculations. The calculator has a clean and simple interface that makes it easy to perform calculations.
+  ## Overview:
+
+  EasyComputeX is a simple and fast calculator Chrome extension that offers users a quick and efficient way to perform basic mathematical calculations. It is designed with a user-friendly interface and allows users to perform calculations with ease.
+
+</div>
 
 ## Features:
 
