@@ -31,7 +31,7 @@
 Follow me on Facebook [@mr.gonzaleskenneth](https://www.facebook.com/mr.gonzaleskenneth) for more updates.
 
 ## Demo:
-<img src="/demo/demo.gif" alt="EasyComputeX Demo" width="600" height="400" />
+<img src="/demo/demo.gif" alt="EasyComputeX Demo" width="700" height="400" />
 
 ## How to Install:
 
