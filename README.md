@@ -36,7 +36,7 @@ Follow me on Facebook [@mr.gonzaleskenneth](https://www.facebook.com/mr.gonzales
 ## How to Install:
 
 <ol>
-  <li>Clone the repository by running the following command in your terminal or download it in github: <br>
+  <li>Clone the repository by running the following command in your terminal or download it in github: <br><br>
     <pre><code>git clone https://github.com/Atlas-Dev-0/EasyComputeX.git</code></pre>
   </li>
   <li>Open Google Chrome and go to the extensions page by clicking the three-dot menu in the top-right corner of the window and selecting "More tools" > "Extensions".</li>
