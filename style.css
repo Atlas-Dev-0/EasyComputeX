@@ -3,15 +3,14 @@
 html {
     min-width: 15em;
     min-height: 20em;
-    background: rgb(0, 0, 0);
     margin: 0em;
 }
 
-body {
+#ecx body {
     font-family: sans-serif;
 }
 
-.container {
+.calculator-container {
     display: flex;
     flex-direction: column;
     background: #082c3f;
@@ -87,7 +86,7 @@ body {
     background: rgb(2, 129, 183) !important;
 }
 
-.title {
+.calculator-title {
     text-align: center;
     padding: 2px;
     display: flex;
@@ -95,7 +94,7 @@ body {
     background: #081a24;
 }
 
-.title h1 {
+.calculator-title h1 {
     height: 15px;
     font-size: 12px;
     font-weight: bold;
